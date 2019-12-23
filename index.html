@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<script  language=JavaScript> 
+function go(){
+if (document.getElementById('txtlogin').value == '') {
+alert("Lo siento pero no eres mi cebolla, nombre de usuario no valido."); 
+}
+else if (document.getElementById('txtpassword').value == 'Damian0218**'){
+ event.preventDefault();
+ document.location.href='Pg3456732454YuikLooG.html'
+}
+else {
+alert("Lo siento pero no eres mi cebolla, nombre de usuario y contraseña correctos."); 
+}
+}
+
+</script> 
+
+<div id="login">
+  <form onsubmit="go()">
+    <h1>Para mi Cebolla</h1>
+    <input type="text" id="txtlogin" placeholder="Usuario de logistica">
+    <input type="password" id="txtpassword" placeholder="Password">
+	<button>Ingresar</button>
+  </form>
+</div>
+ 
+<!-- partial -->
+ <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+</body>
+</html>
